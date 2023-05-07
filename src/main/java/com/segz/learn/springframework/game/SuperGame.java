@@ -1,5 +1,10 @@
 package com.segz.learn.springframework.game;
 
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+@Component
+@Qualifier("SuperGameQualifier")
 public class SuperGame implements  GamingConsole {
     public void up()
     {
