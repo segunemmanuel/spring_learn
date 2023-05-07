@@ -1,4 +1,4 @@
-package com.segz.learn.springframework;
+package com.segz.learn.springframework.game;
 import com.segz.learn.springframework.game.GameRunner;
 import com.segz.learn.springframework.game.MarioGame;
 import com.segz.learn.springframework.game.PacMan;
